@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.display{
+    display: flex;
+}
+.br-principal{
+    background-color: #f3f0f0;
+}
+.navbar{
+    background-color: #ffffff;
+    border-bottom: 2px solid #dddddd;
+    justify-content: space-between;
+    padding: 15px 200px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar div{
+    flex: 1;
+}
+
+.navbar .search{
+    padding: 5px;
+    border: 1px solid rgb(216, 215, 215)
+}
+
+.content{
+    padding: 15px 200px;
+    gap: 10px;
+}
+
+.content .publications{
+    flex: 2;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+
+    
+}
+
+.content .aside{
+    flex: 1;
+    height: 100px;
+    position: relative;
+    
+}
+
+.aside-contenedor{
+    position: sticky;
+    top: 90px;
+    height: 90x;
+    
+    
+    
+}
+
+.publications .circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(223, 57, 107);
+    margin-top: 10px;
+    
+}
+
+
+.circulatorio{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+
+    
+}
+
+.circulo .texto{
+    font-size: small;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.circulos{
+    justify-content: space-around;
+width: 50%;
+}
+
+.publicacion{
+border: 1px solid #dddddd;
+margin-left: 200px;
+margin-right: 530px;
+
+}
+
+
+.circular{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.publicacion .texto{
+font-weight: bold;
+font-size: 15px;
+}
+
+.info{
+    align-items: center;
+    padding: 10px;
+}
+
+.acciones{
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.icon :hover{
+    color: rgb(131, 120, 120);
+    cursor: pointer;
+}
+
+.iconos{
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.descripciones{
+    margin: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+.add-comment{
+    width: 100%;
+    border: none;
+    border-top: 1px solid rgb(235, 232, 232);
+    padding: 10px 0px;
+    
+}
+
+.puntos{
+   
+    width: 100%;
+    justify-content: end;
+}
+
+.dropdown:hover .dropdown-contenedor{
+    display: block;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-contenedor{
+    border: 1px solid rgb(247, 239, 239);
+    width: 150px;
+    position: absolute;
+    display: none;
+
+}
+
+.dropdown-contenedor button{
+    width: 100%;
+    background-color: white;
+    border: none;
+    text-align: left;
+    padding: 10px;
+}
+
+
+.dropdown-contenedor button:hover{ 
+    background-color: rgb(236, 236, 236);
+    cursor: pointer; 
+}
+ 
+.padding{
+    padding: 5px;
+}
+
+.foto-circular{
+    padding: 30px;
+}
+
+.nombre{
+    margin-top: 40px;
+    padding-right: 10px;
+    width: 50%;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+
+ .nombre-2{
+     font-size: small;
+     color: #8f8989;
+     font-style: italic;
+     font-size: 90%;
+ }
+
+ .cambiar{
+    text-align: right;
+    width: 100%;
+    margin-top: 40px;
+ }
+
+ .cambiar button {
+     width: 100%;
+     border: none;
+     text-align: end;
+     color: rgb(69, 189, 189);
+     padding: 10px;
+     background-color: white;
+     
+ }
+
+ .nombre-3{
+    font-size: medium;
+    color: #8f8989;
+    margin-left: 30px;
+ }
+
+ .ver-todo {
+margin-left: 100px ;  
+text-align: end;
+    
+ }
+
+ .ver-todo button{
+    width: 100%;
+    border: none;
+    color: black;
+    background-color: white;
+
+}
+     
+ .circulitos{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+
+.borde{
+    border: 1px solid black;
+}
+
+.nombre-4{
+    font-size: 80%;
+    margin-top: 5px;
+    margin-left: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+ 
+    
+.seguir{
+    text-align: end;
+    margin-left: 220px ;
+   
+ }
+
+.seguir button{
+    width: 100%;
+    border: none;
+    color: rgb(69, 189, 189);
+    background-color: white;
+    
+}
+
+.margin{
+    margin-top: 10px;
+}
+
+.circulitos img{
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+}
+
